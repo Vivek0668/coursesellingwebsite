@@ -1,0 +1,63 @@
+
+.appbar-container {
+    background-color: #000000;
+    
+    box-shadow: 0px 2px 4px rgba(53, 44, 44, 0.1); 
+    padding: 10px 20px;
+}
+
+.appbar-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.appbar-brand {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.appbar-buttons {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.appbar-buttons button {
+    margin-left: 10px; 
+}
+
+
+
+
+
+
+
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.username {
+    font-weight: bold;
+}
+
+
+.appbar-buttons button,
+.user-section button {
+    background-color: #1976d2;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.appbar-buttons button:hover,
+.user-section button:hover {
+    background-color: #09458a; 
+    color : #fff5f5
+}
